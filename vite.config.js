@@ -1,18 +1,18 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { resolve } from 'node:path';
+import react from '@vitejs/plugin-react-swc';
+import macro from 'vite-plugin-babel-macros';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  server: {
-    host: 'localhost',
-    port: 3000,
-    open: true,
-  },
+  plugins: [macro(), react()],
   resolve: {
     alias: [{ find: '@', replacement: resolve(__dirname, './src') }],
   },
+  server: {
+    host: 'localhost',
+    port: 3000,
+  },
   css: {
-    devSourcemap: true, // 개발자 도구에 소스맵 생성 설정
+    devSourcemap: true,
   },
 });
