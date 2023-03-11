@@ -1,38 +1,60 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: 🐞 Bug report
+about: 버그가 발생한 상황과 수정 내역을 기록
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!-- "여기에 작성하세요" 는 지우고 작성하세요 🙏🏻 -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## 버그 설명
+<!-- 어떤 버그인지 자세히 알려주세요 -->
+여기에 작성하세요
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 재현 방법
+<!-- 다음과 같이 단계별로 작성해주세요 :
+e.g.
+1. 해당 페이지에서 작업 중
+2. 이것을 클릭했는데 
+3. 그리고 여기서 스크롤을 내렸더니
+4. "..." 한 오류를 발견했다.
+ -->
+1. 여기에 작성하세요
+2. 여기에 작성하세요
+3. 여기에 작성하세요
+4. 여기에 작성하세요
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## 예상한 결과
+<!-- 예상했던 결과는 어떤 것이었는지 알려주세요 -->
+여기에 작성하세요
 
-**Desktop (please complete the following information):**
+## 스크린샷
+<!-- 문제를 파악하는 데 도움이 되는 스크린샷을 추가해주세요 -->
+여기에 작성하세요
+
+## 디바이스 환경
+<!-- 작업을 진행하는 디바이스 환경을 다음과 같이 작성해주세요 :
+
+Desktop
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
+Smartphone
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+ -->
+ Type
+ - Device: 여기에 작성하세요 (Smartphone 일 경우)
+ - OS: 여기에 작성하세요
+ - Browser: 여기에 작성하세요
+ - Version: 여기에 작성하세요
+
+## 추가 내용
+<!-- 문제를 해결하기 위한 추가적인 정보를 알려주세요 -->
+여기에 작성하세요
